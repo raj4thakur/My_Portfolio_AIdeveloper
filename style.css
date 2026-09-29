@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 :root {
   --bg: #f6f6f3;
   --text: #151515;
@@ -151,5 +150,3 @@ footer { width: min(var(--max), calc(100% - 64px)); margin: auto; padding: 25px 
   .contact { padding: 100px 0; }
   footer { gap: 20px; flex-direction: column; }
 }
-=======
->>>>>>> e60bff47cecdc999b68a254cf7fa85f37b2f2ee5
