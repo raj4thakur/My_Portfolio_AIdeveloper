@@ -3,75 +3,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Raj Thakur — AI Engineer</title>
-  <meta name="description" content="Raj Thakur — AI Engineer specializing in Machine Learning, Generative AI, NLP and AI application development.">
+  <title>Raj Thakur — AI Developer & Engineer</title>
+  <meta name="description" content="Raj Thakur — AI Developer & Engineer building AI applications, LLM systems, RAG pipelines, computer vision systems and intelligent products.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header class="nav">
-    <a href="#" class="logo">RAJ THAKUR<span></span></a>
+    <a href="#" class="brand" aria-label="Raj Thakur home">
+      <span class="brand-eagle"><img src="eagle.jpg" alt="Eagle"></span>
+      <span class="brand-name">RAJ THAKUR</span>
+    </a>
     <nav>
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
-      <a href="#beyond-work">Beyond Work</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
-
     <section class="hero">
-      <p class="eyebrow">AI ENGINEER · MACHINE LEARNING · GENERATIVE AI</p>
+      <div class="hero-topline">
+        <p class="eyebrow">AI DEVELOPER · AI ENGINEER · GENERATIVE AI</p>
+        <a class="company-chip" href="https://aurbient.com" target="_blank" rel="noopener">AURBIENT TECHNOLOGIES ↗</a>
+      </div>
       <h1>Building intelligent<br><em>systems that matter.</em></h1>
       <p class="hero-text">
-        I build AI-driven applications using Python, machine learning,
-        deep learning, NLP, LLMs and modern backend technologies.
+        I build AI-driven applications across machine learning, deep learning, NLP,
+        LLMs, RAG, computer vision and backend engineering — turning ideas into working products.
       </p>
       <div class="hero-actions">
         <a class="button" href="#projects">View my work <span>↗</span></a>
-        <a class="text-link" href="#contact">Get in touch</a>
+        <a class="button button-light" href="RAJ%20THAKUR%20AI%20DEVELOPER%20RESUME.pdf" target="_blank" rel="noopener">View Resume <span>↗</span></a>
+        <a class="text-link" href="https://github.com/raj4thakur" target="_blank" rel="noopener">GitHub ↗</a>
       </div>
     </section>
 
-    <section id="about" class="section about">
+    <section id="about" class="section about-section">
       <div class="section-label">01 — ABOUT ME</div>
-
       <div class="about-layout">
         <div class="about-photo-wrap">
           <img src="raj-profile.png" alt="Raj Thakur" class="about-photo">
+          <div class="photo-caption">AI DEVELOPER & ENGINEER</div>
         </div>
 
         <div class="about-copy">
-          <h2>I’m Raj — an AI Engineer who enjoys <span>building things.</span></h2>
-
+          <h2>I’m Raj — an AI Developer & Engineer who enjoys <span>building things.</span></h2>
           <p>
-            My professional world revolves around AI, machine learning and software,
-            but that is only one part of who I am. I enjoy taking an idea, understanding
-            how it works, and turning it into something useful and tangible.
+            My work sits at the intersection of artificial intelligence and software engineering.
+            I build practical systems using Python, machine learning, deep learning, NLP, LLMs,
+            RAG, computer vision and modern backend technologies.
           </p>
-
           <p>
-            Outside of technology, I enjoy travelling, discovering new places, meeting
-            different people and experiencing things outside my usual routine. I like
-            staying curious, taking on new challenges and continuously learning.
+            I enjoy taking an idea from a problem statement to a working application — designing
+            the model or AI workflow, building the API, connecting the data layer and getting the
+            system ready to run in the real world.
           </p>
-
           <p>
-            University has also given me opportunities beyond engineering. Through IEEE,
-            research, presentations and leadership activities, I have developed a strong
-            interest in communication, collaboration and taking responsibility.
+            Alongside development, I have worked on research, IEEE activities, technical presentations
+            and leadership. I am also building <a class="inline-link" href="https://aurbient.com" target="_blank" rel="noopener">Aurbient Technologies</a>,
+            focused on AI, automation and intelligent business systems.
           </p>
 
           <div class="personal-traits">
-            
+            <div><span>FOCUS</span><strong>Applied AI & Intelligent Systems</strong><p>From prototypes to production-oriented applications.</p></div>
+            <div><span>BUILDING</span><strong>AI Products & Automation</strong><p>LLM apps, RAG, computer vision and workflow automation.</p></div>
+            <div><span>ENGINEERING</span><strong>Python · FastAPI · APIs</strong><p>Backend systems, model integration and deployment.</p></div>
+            <div><span>COMPANY</span><strong>Aurbient Technologies</strong><p>AI consulting, automation and intelligent operations.</p></div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="experience" class="section">
       <div class="section-label">02 — EXPERIENCE</div>
-
       <article class="experience">
         <div class="exp-meta">
           <span>Jun 2025 — Jul 2026</span>
@@ -81,9 +88,9 @@
           <h2>AI Developer Intern</h2>
           <h3>Parul Chemicals</h3>
           <ul>
-            <li>Contributed to the design and development of an internal AI-driven CRM system for business process optimization.</li>
-            <li>Developed modular architectures and comprehensive documentation to enhance scalability and maintainability.</li>
-            <li>Developed an AI-based sales and marketing assistant using NLP, resulting in a 28% reduction in process time and a 70% improvement in accuracy.</li>
+            <li>Architected and built an internal AI-driven CRM using FastAPI, PostgreSQL and LangChain, automating lead scoring and follow-up generation.</li>
+            <li>Developed a sales and marketing assistant using fine-tuned NLP models and prompt-engineered LLM chains, reducing process time by 28%.</li>
+            <li>Wrote modular, documented code with unit tests using pytest and CI through GitHub Actions to improve maintainability and onboarding.</li>
           </ul>
         </div>
       </article>
@@ -93,218 +100,200 @@
       <div class="section-label">03 — SELECTED PROJECTS</div>
 
       <div class="projects">
-
-        <article class="project featured">
+        <article class="project featured project-link-card">
           <div class="project-number">01</div>
+          <div class="project-content">
+            <p class="project-type">MANUFACTURING INTELLIGENCE · AI · PRODUCT</p>
+            <h2>Optima</h2>
+            <p>
+              A manufacturing intelligence platform concept designed to help factories understand
+              what is happening, detect issues early, identify root causes and take action with confidence.
+            </p>
+            <div class="tags"><span>AI Systems</span><span>Manufacturing</span><span>Operations</span><span>FastAPI</span><span>Product Design</span></div>
+            <div class="project-footer">
+              <span class="status concept">PRODUCT</span>
+              <a class="project-link" href="https://aurbient.com" target="_blank" rel="noopener">AURBIENT TECHNOLOGIES ↗</a>
+            </div>
+          </div>
+          <div class="project-image optima-image">
+            <img src="optima-preview.png" alt="Optima Manufacturing Intelligence System preview">
+          </div>
+        </article>
+
+        <article class="project project-link-card">
+          <div class="project-image optima-image">
+            <img src="resume-reviewer.png" alt="AI Resume Reviewer preview">
+            </div>
+          <div class="project-number">02</div>
           <div class="project-content">
             <p class="project-type">RAG · LLM · FASTAPI</p>
             <h2>AI Resume Reviewer</h2>
             <p>
-              An AI-powered resume analysis system that retrieves relevant information
-              from resumes and job descriptions before generating structured feedback
-              using an LLM.
+              A RAG-based resume analysis system using LangChain, Gemini and FAISS to process PDFs,
+              retrieve relevant context and generate structured feedback with schema validation.
             </p>
-            <div class="tags">
-              <span>Python</span><span>RAG</span><span>Embeddings</span>
-              <span>FastAPI</span><span>Prompt Engineering</span>
-            </div>
+            <div class="tags"><span>Python</span><span>RAG</span><span>LangChain</span><span>FAISS</span><span>FastAPI</span></div>
             <div class="project-footer">
-              <span class="status built">BUILT</span>
+              <span class="status live">LIVE</span>
+              <a class="project-link" href="https://resume-reviewer-rag-application.onrender.com" target="_blank" rel="noopener">OPEN APP ↗</a>
             </div>
+    
           </div>
         </article>
 
-        <article class="project">
-          <div class="project-number">02</div>
+        <article class="project project-link-card">
+          <div class="project-number">03</div>
           <div class="project-content">
             <p class="project-type">AI · PDF PROCESSING · TALLYPRIME</p>
             <h2>AI Invoice Automation</h2>
             <p>
-              An AI-powered invoice processing system that extracts vendor details,
-              invoice numbers, dates, tax information, amounts and line items from
-              PDF invoices, validates the data and automates voucher creation in TallyPrime.
+              An end-to-end invoice extraction and accounting workflow using PDF processing,
+              structured validation and TallyPrime XML integration for automated voucher creation.
             </p>
             <div class="result">98% <small>field-level extraction accuracy</small></div>
-            <div class="tags">
-              <span>Python</span><span>PDF Processing</span><span>TallyPrime</span><span>API/XML</span>
-            </div>
-            <div class="project-footer">
-              <span class="status built">BUILT</span>
-            </div>
+            <div class="tags"><span>Python</span><span>PDF Processing</span><span>TallyPrime</span><span>FastAPI</span><span>XML</span></div>
+            <div class="project-footer"><span class="status built">BUILT</span></div>
           </div>
         </article>
 
-        <article class="project">
-          <div class="project-number">03</div>
+        <article class="project project-link-card">
+          <div class="project-image">
+            <img src="facial-expression-recognition.jpg" alt="Facial Sentiment Recognition project output">
+          </div>
+          
+          <div class="project-number">04</div>
           <div class="project-content">
             <p class="project-type">DEEP LEARNING · COMPUTER VISION</p>
             <h2>Facial Sentiment Recognition</h2>
             <p>
-              A CNN-based facial emotion recognition system using transfer learning
-              with VGG-16 and ResNet, with image preprocessing, training, validation
-              and performance evaluation.
+              A facial emotion recognition system using transfer learning with VGG-16 and ResNet,
+              with MTCNN preprocessing, augmentation and performance evaluation.
             </p>
-            <div class="result">88% <small>test accuracy</small></div>
-            <div class="tags">
-              <span>TensorFlow</span><span>Keras</span><span>CNN</span><span>OpenCV</span>
-            </div>
+            <div class="result">88% <small>test accuracy on 3-class subset</small></div>
+            <div class="tags"><span>TensorFlow</span><span>Keras</span><span>CNN</span><span>OpenCV</span></div>
             <div class="project-footer">
-              <span class="status built">BUILT</span>
+              <span class="status live">LIVE</span>
+              <a class="project-link" href="https://facial-sentiment-recognition.onrender.com" target="_blank" rel="noopener">OPEN APP ↗</a>
             </div>
           </div>
         </article>
 
-        <article class="project image-project">
-          <div class="project-image">
-            <img src="age-gender-preview.png" alt="Age and Gender Recognition project output">
-          </div>
-          <div class="project-number">04</div>
+        <article class="project image-project project-link-card">
+          <div class="project-image"><img src="age-gender-preview.png" alt="Age and Gender Recognition project output"></div>
+          <div class="project-number">05</div>
           <div class="project-content">
             <p class="project-type">COMPUTER VISION · DEEP LEARNING · OPENCV</p>
             <h2>Age & Gender Recognition</h2>
-            <p>
-              A deep learning project that predicts age and gender from facial images,
-              with training and inference workflows built around Python, TensorFlow/Keras
-              and OpenCV.
-            </p>
-            <div class="tags">
-              <span>Python</span><span>TensorFlow</span><span>Keras</span><span>OpenCV</span><span>CNN</span>
-            </div>
+            <p>A deep learning application that predicts age and gender from facial images using Python, TensorFlow/Keras and OpenCV.</p>
+            <div class="tags"><span>Python</span><span>TensorFlow</span><span>Keras</span><span>OpenCV</span><span>CNN</span></div>
             <div class="project-footer">
-              <span class="status built">BUILT</span>
+              <span class="status live">LIVE</span>
+              <a class="project-link" href="https://real-time-age-gender-recognition.onrender.com" target="_blank" rel="noopener">OPEN APP ↗</a>
               <a class="project-link" href="https://github.com/raj4thakur/Age_Gender_Recognition" target="_blank" rel="noopener">GITHUB ↗</a>
             </div>
           </div>
         </article>
 
-        <article class="project image-project">
-          <div class="project-image">
-            <img src="feastfit-preview.png" alt="FeastFit food recipe and diet planner website">
-          </div>
-          <div class="project-number">05</div>
+        <article class="project image-project project-link-card">
+          <div class="project-image"><img src="feastfit-preview.png" alt="FeastFit food recipe and diet planner website"></div>
+          <div class="project-number">06</div>
           <div class="project-content">
             <p class="project-type">WEB APPLICATION · FOOD · DIET PLANNING</p>
             <h2>FeastFit</h2>
-            <p>
-              A web application built around food recipes and diet planning, designed
-              to provide a simple interface for discovering recipes and organizing meals.
-            </p>
-            <div class="tags">
-              <span>Web Development</span><span>Recipes</span><span>Diet Planner</span><span>UI</span>
-            </div>
+            <p>A web application built around food recipes and diet planning, designed for discovering recipes and organizing meals.</p>
+            <div class="tags"><span>Web Development</span><span>Recipes</span><span>Diet Planner</span><span>UI</span></div>
             <div class="project-footer">
-              <span class="status built">BUILT</span>
+              <span class="status live">LIVE</span>
+              <a class="project-link" href="https://feastfit-in.onrender.com" target="_blank" rel="noopener">OPEN APP ↗</a>
               <a class="project-link" href="https://github.com/raj4thakur/FeastFitProject" target="_blank" rel="noopener">GITHUB ↗</a>
             </div>
           </div>
         </article>
 
+        <article class="project project-link-card">
+          <div class="project-image resume-reviewer-image">
+            <img src="RLPlaygraound-preview.png" alt="RL Playground preview">
+          </div>
+          <div class="project-number">07</div>
+          <div class="project-content">
+            <p class="project-type">REINFORCEMENT LEARNING · EXPERIMENTAL</p>
+            <h2>RL Playground</h2>
+            <p>A browser-based reinforcement learning playground for experimenting with agent behaviour, environments and live actions.</p>
+            <div class="tags"><span>Reinforcement Learning</span><span>Python</span><span>Agents</span><span>Interactive</span></div>
+            <div class="project-footer">
+              <span class="status live">LIVE</span>
+              <a class="project-link" href="https://rlplayground.onrender.com/" target="_blank" rel="noopener">OPEN PLAYGROUND ↗</a>
+            </div>
+          </div>
+        </article>
       </div>
 
       <div class="projects-note">
         <span>MORE PROJECTS</span>
         <p>
-          This is a selection of my work. More experiments, applications and
-          technical projects can be added here as the portfolio grows.
+          More experiments, AI applications and engineering work are available on GitHub.
+          <a class="inline-link" href="https://github.com/raj4thakur" target="_blank" rel="noopener">View GitHub ↗</a>
         </p>
-      </div>
-    </section>
-
-    <section id="beyond-work" class="section beyond-work">
-      <div class="section-label">04 — BEYOND WORK</div>
-
-      <div class="beyond-intro">
-        <h2>There’s more to me than <span>code.</span></h2>
-        <p>
-          I enjoy keeping life varied — exploring, learning, meeting people,
-          taking on new experiences and staying involved beyond the technical side
-          of what I do.
-        </p>
-      </div>
-
-      <div class="beyond-grid">
-        <div class="beyond-item">
-          <span>01</span>
-          <div>
-            <h3>Travel & Exploration</h3>
-            <p>Exploring new places, environments and experiences.</p>
-          </div>
-        </div>
-        <div class="beyond-item">
-          <span>02</span>
-          <div>
-            <h3>Curiosity</h3>
-            <p>Learning new things and going deeper when something interests me.</p>
-          </div>
-        </div>
-        <div class="beyond-item">
-          <span>03</span>
-          <div>
-            <h3>Leadership & Activities</h3>
-            <p>Being involved, communicating ideas and taking responsibility.</p>
-          </div>
-        </div>
-        <div class="beyond-item">
-          <span>04</span>
-          <div>
-            <h3>Research & Presentation</h3>
-            <p>Sharing ideas through research, presentations and technical work.</p>
-          </div>
-        </div>
       </div>
     </section>
 
     <section id="skills" class="section skills-section">
       <div class="section-label">04 — SKILLS</div>
       <div class="skills-grid">
-        <div class="skill-group">
-          <h3>Programming & Tools</h3>
-          <p>Python · SQL · Git · GitHub</p>
-        </div>
-        <div class="skill-group">
-          <h3>AI / ML</h3>
-          <p>Machine Learning · Deep Learning · NLP · Computer Vision · Scikit-learn · TensorFlow/Keras</p>
-        </div>
-        <div class="skill-group">
-          <h3>Generative AI</h3>
-          <p>LLMs · Prompt Engineering · RAG · Embeddings</p>
-        </div>
-        <div class="skill-group">
-          <h3>Data & Backend</h3>
-          <p>Pandas · NumPy · FastAPI · REST APIs · MySQL</p>
-        </div>
-        <div class="skill-group">
-          <h3>Engineering</h3>
-          <p>Model Evaluation · Testing · API Integration</p>
-        </div>
+        <div class="skill-group"><h3>Programming</h3><p>Python · SQL · JavaScript (basic)</p></div>
+        <div class="skill-group"><h3>ML / Deep Learning</h3><p>PyTorch · TensorFlow/Keras · Scikit-learn · OpenCV · Hugging Face Transformers</p></div>
+        <div class="skill-group"><h3>LLM / Generative AI</h3><p>LangChain · LlamaIndex · OpenAI API · RAG · Prompt Engineering · ChromaDB · FAISS · LoRA/PEFT</p></div>
+        <div class="skill-group"><h3>Backend & Data</h3><p>FastAPI · REST APIs · PostgreSQL · MySQL · Pandas · NumPy · Docker</p></div>
+        <div class="skill-group"><h3>Engineering Tools</h3><p>Git · GitHub · Postman · Linux · Jupyter · VS Code · GitHub Actions</p></div>
+        <div class="skill-group"><h3>AI Engineering</h3><p>Model evaluation · API design · Model integration · Production deployment</p></div>
       </div>
     </section>
 
     <section class="section achievements">
-      <div class="section-label">06 — ACHIEVEMENTS</div>
+      <div class="section-label">05 — ACHIEVEMENTS</div>
       <div class="achievement-list">
-        <div><strong>01</strong><span>SUI-IEEE Student Branch Chair <small>2025–26</small></span></div>
+        <div><strong>01</strong><span>SUI-IEEE Student Branch Chair <small>2025–26 · led 30+ members</small></span></div>
         <div><strong>02</strong><span>Best Paper Award — ACROSET <small>2024</small></span></div>
         <div><strong>03</strong><span>Published chapters in IEEE Xplore & IGI Global <small>2023</small></span></div>
         <div><strong>04</strong><span>Best Paper Presentation — IEEE ICPS-ITI-AGS <small>2023</small></span></div>
+        <div><strong>05</strong><span>Published Patent — Autonomous Drone Transportation Technology <small>2026</small></span></div>
+      </div>
+    </section>
+
+    <section class="section company-section">
+      <div class="section-label">06 — BUILDING AURBIENT</div>
+      <div class="company-layout">
+        <div>
+          <p class="project-type">AURBIENT TECHNOLOGIES</p>
+          <h2>Building AI and automation systems for <span>real businesses.</span></h2>
+        </div>
+        <div>
+          <p class="company-copy">
+            Aurbient Technologies works around AI integration, business process automation,
+            operational intelligence, ERP and management platforms, scalable digital infrastructure
+            and custom enterprise solutions.
+          </p>
+          <a class="button" href="https://aurbient.com" target="_blank" rel="noopener">Visit Aurbient ↗</a>
+        </div>
       </div>
     </section>
 
     <section id="contact" class="contact">
       <p class="eyebrow">07 — CONTACT</p>
       <h2>Have an idea worth<br><em>building?</em></h2>
-      <a class="email" href="mailto:rajthakur913124@gmail.com">rajthakur913124@gmail.com</a>
+      <a class="email" href="mailto:rajthakur.aidev@gmail.com">rajthakur.aidev@gmail.com</a>
       <div class="contact-links">
         <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
-        <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="https://github.com/raj4thakur" target="_blank" rel="noopener">GitHub ↗</a>
+        <a href="https://aurbient.com" target="_blank" rel="noopener">Aurbient ↗</a>
+        <a href="RAJ%20THAKUR%20AI%20DEVELOPER%20RESUME.pdf" target="_blank" rel="noopener">Resume ↗</a>
       </div>
     </section>
-
   </main>
 
   <footer>
     <span>© 2026 Raj Thakur</span>
-    <span>AI Engineer</span>
+    <span>AI Developer & Engineer</span>
   </footer>
 
 </body>
